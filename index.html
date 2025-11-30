@@ -87,7 +87,8 @@
     /* Hide on desktop helper (change 5) */
     @media (min-width: 901px){ .hideondesktop{ display:none !important; } }
     @media (max-width: 900px){ .hideondesktop{ display:initial; } }
-
+@media (max-width: 900px) {
+}
     @media (max-width: 900px){
       .hero-grid{grid-template-columns:1fr}
       .grid-3{grid-template-columns:1fr 1fr}
@@ -95,6 +96,7 @@
       form .row{grid-template-columns:1fr}
       .hideonmobile {display:none}
       .smallonmobile {font-size: smaller}
+      .maintitle {font-size: 18px;  }
     }
     @media (max-width: 520px){
       .grid-3{grid-template-columns:1fr}
@@ -110,7 +112,7 @@
 <div class="container nav">
 <a aria-label="MedicalWebsites home" class="brand" href="#home">
 <svg aria-hidden="true" class="logo" height="40" style="vertical-align:middle;margin-right:8px" viewbox="0 0 64 64" width="40"><defs><lineargradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#1E6D83"></stop><stop offset="1" stop-color="#0F3E4B"></stop></lineargradient></defs><rect fill="url(#g)" height="52" rx="14" width="52" x="6" y="6"></rect><path d="M32 20v24M20 32h24" stroke="#FFB703" stroke-linecap="round" stroke-width="6"></path></svg>
-<span style="font-size:26px">MedicalWebsitesOnline</span>
+<span class="maintitle" style="font-size:26px">Medical Websites Online</span>
 </a>
 <nav class="menu" id="menu" role="navigation">
 <a class="hideonmobile" href="#features">Features</a>
